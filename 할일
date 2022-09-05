@@ -1,0 +1,7 @@
+로그인 구현
+    로그인은 모델과 관련이 없대. 왜? token으로 비교하면 되니까
+        1. ID/PW request에 담겨서 오겠지? 그럼 토큰에서 해당유저에 맞는 토큰꺼내
+        2. 확인해서 응답해
+
+유저모델을 확장해보자
+    -username(primary=True) / email, password, nickname, position, subjects, image
